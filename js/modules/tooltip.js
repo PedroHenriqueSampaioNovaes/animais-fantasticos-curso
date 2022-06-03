@@ -39,7 +39,6 @@ export default class Tooltip {
   onMouseOver({currentTarget}) {
     // cria a tooltipbox e coloca em uma propriedade
     this.criarTooltipBox(currentTarget);
-
     currentTarget.addEventListener('mousemove', this.onMouseMove);
     currentTarget.addEventListener('mouseleave', this.onMouseLeave);
   }
