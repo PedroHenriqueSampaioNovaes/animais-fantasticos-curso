@@ -31,7 +31,6 @@ export default class initDropdownMenu {
     });
   }
 
-
   init() {
     if (this.dropdownMenus.length) {
       this.addDropdownMenusEvent();
